@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Cristincombank Detailed Gantt" company="" webLink="" view-date="2024-10-15" view-index="0" gantt-divider-location="492" resource-divider-location="300" version="3.3.3311" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Name" width="272" order="0"/>
+        <field id="tpd4" name="Begin date" width="102" order="1"/>
+        <field id="tpd5" name="End date" width="102" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="4906c95103924110b677705c5b00de82" name="Planificare" meeting="false" start="2024-10-15" duration="3" complete="0" expand="true">
+            <task id="2" uid="31e3e0e6bb844b48b413272157e75e11" name="Analiza cerintelor" meeting="false" start="2024-10-15" duration="3" complete="0" expand="true"/>
+            <task id="3" uid="58f860cce3a44444bbce7738d377985d" name="Stabilirea functionalitatilor principale" meeting="false" start="2024-10-15" duration="2" complete="0" expand="true"/>
+            <task id="4" uid="1532c781103348d9ae7bc486f896fecf" name="Definirea user-flow" meeting="false" start="2024-10-15" duration="3" complete="0" expand="true"/>
+            <task id="5" uid="1a5ee2e2f4b541c98d5ba42bc6c7a7aa" name="Planificarea structurii prototipului" meeting="false" start="2024-10-15" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="6" uid="4ad5fc7106d146098c3835423c878633" name="Design Interfata (UI)" meeting="false" start="2024-10-25" duration="4" complete="0" expand="true">
+            <task id="7" uid="efa239c697e04fb1838f4bd6d2ced05e" name="Design Login + PIN" meeting="false" start="2024-10-25" duration="2" complete="0" expand="true"/>
+            <task id="8" uid="5cd0f351294a4b48a044e628d351224d" name="Design Forgot Password (1–5)" meeting="false" start="2024-10-25" duration="3" complete="0" expand="true"/>
+            <task id="9" uid="cb029f8342cc41d8a384c21d39e97cc9" name="Design Forgot PIN (1–4)" meeting="false" start="2024-10-25" duration="3" complete="0" expand="true"/>
+            <task id="10" uid="5f740e1513324693a38168c0a7ab145c" name="Design Dashboard" meeting="false" start="2024-10-25" duration="3" complete="0" expand="true"/>
+            <task id="11" uid="b0470657cc594c04a947d725873444b2" name="Design Cards (1–13)" meeting="false" start="2024-10-25" duration="4" complete="0" expand="true"/>
+            <task id="12" uid="a723f73fb2254c628f87ba1e9a616ab3" name="Design Transfer/Deposit/Top-Up/Exchange/Bills" meeting="false" start="2024-10-25" duration="3" complete="0" expand="true"/>
+            <task id="13" uid="eaf4b0ed26fb4b47bf63361ca27cb708" name="Design Settings + Support" meeting="false" start="2024-10-25" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="14" uid="5be85382e13d4113a820af284107a535" name="Prototype (Functionalitati)" meeting="false" start="2024-11-14" duration="3" complete="0" expand="true">
+            <task id="15" uid="2e565e0578364daf9e28f07341b54226" name="Conectare Login → Dashboard" meeting="false" start="2024-11-14" duration="1" complete="0" expand="true"/>
+            <task id="16" uid="b17bdb3bd51344fc87aafd067e5bd660" name="Conectare flux Forgot Password" meeting="false" start="2024-11-14" duration="2" complete="0" expand="true"/>
+            <task id="17" uid="87318110abea466b9d881cbecca99fb7" name="Conectare flux Forgot PIN" meeting="false" start="2024-11-14" duration="2" complete="0" expand="true"/>
+            <task id="18" uid="d098af8918ce493da4340224b2a1eefa" name="Conectare Dashboard → Cards/Transactions/Payments" meeting="false" start="2024-11-14" duration="3" complete="0" expand="true"/>
+            <task id="19" uid="430acad88a9e4a35b0b0aad7ca6d5058" name="Conectare Transfer/Deposit/Top-Up/Exchange" meeting="false" start="2024-11-14" duration="3" complete="0" expand="true"/>
+            <task id="20" uid="f8c2e8f6c791467080ebfdfe813b2343" name="Conectare Settings/Support/Notifications" meeting="false" start="2024-11-14" duration="2" complete="0" expand="true"/>
+            <task id="21" uid="98158fd4743147209be248c61e79f603" name="Adaugare animatii + smart-animate" meeting="false" start="2024-11-14" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="22" uid="32bbdf7588794aeabf8d4e055345a0d4" name="Testare Prototip" meeting="false" start="2024-11-29" duration="2" complete="0" expand="true">
+            <task id="23" uid="6fbbf22917b04bd69a59ab712f1cef5c" name="Testare Login + PIN" meeting="false" start="2024-11-29" duration="1" complete="0" expand="true"/>
+            <task id="24" uid="bc5b8555139e416dacabb141ad1b5000" name="Testare flux Forgot Password" meeting="false" start="2024-11-29" duration="2" complete="0" expand="true"/>
+            <task id="25" uid="f4153135b7e143e68b3cd394339e84da" name="Testare flux Forgot PIN" meeting="false" start="2024-11-29" duration="2" complete="0" expand="true"/>
+            <task id="26" uid="52cbf8652aa74b1690840ff49729e428" name="Testare navigare generala" meeting="false" start="2024-11-29" duration="2" complete="0" expand="true"/>
+            <task id="27" uid="7d61658bb39b4d759b709a11fd04d00a" name="Testare carduri + tranzactii + formulare" meeting="false" start="2024-11-29" duration="2" complete="0" expand="true"/>
+            <task id="28" uid="85e9d6596abd4e43ad0a6364afbd84a1" name="Ajustari finale" meeting="false" start="2024-11-29" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="29" uid="5478a7326798424b8d37570c943d5f59" name="Finalizare &amp; Prezentare" meeting="false" start="2024-12-06" duration="1" complete="0" expand="true">
+            <task id="30" uid="41d6bbe73d6647e58e478bdd80eb370d" name="Pregatire prototip final" meeting="false" start="2024-12-06" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
