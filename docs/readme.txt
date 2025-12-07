@@ -1,1 +1,2 @@
-asd
+Trello:
+https://trello.com/invite/b/6935c4db3d79c0ac16d88477/ATTI920abceefd906c122e7b005b2c54072d67B33BFA/cristicombank
